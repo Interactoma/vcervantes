@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.name{
+    color: #6fffe9;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.description{
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgb(0, 192, 42) 0%, rgba(0,212,255,1) 100%);
+    -webkit-background-clip: text;  
+    color: transparent;
+    font-size: 1.5rem;
+}

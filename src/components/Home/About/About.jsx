@@ -1,12 +1,13 @@
+import style from './About.module.css';
 
 export default function About() {
 
   return (
-    <div>
-      <div>
-        <h2>Victor Cervantes</h2>
-        <p>{"{ Full-Stack Web Developer }"}</p>
+    
+      <div className={style.container}>
+        <h2 className={style.name}>Victor Cervantes</h2>
+        <p className={style.description}>{"{ Full-Stack Web Developer }"}</p>
       </div>
-    </div>
+    
   )
 }
